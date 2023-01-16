@@ -1,0 +1,36 @@
+main {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+table {
+    margin: 50px auto;
+    border: 20px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid rgb(255, 254, 254);
+    background-image: none;
+}
+
+th, td {
+   background-image: none;
+    padding: 5px;
+}
+button{
+    background-color:transparent ;
+    size: 30px;
+    color: aqua;
+}
+button:hover{
+    transform:scale(1.1);
+}
+label{
+    size: 30px;
+    color: rgb(233, 59, 215);
+    font-size: 40px;
+}
